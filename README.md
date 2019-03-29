@@ -1,10 +1,17 @@
 # MPSafariAF
 Applescript that autofills from MacPass into Safari based on the front most tab
+
+
 Global Keyboard shortcut via FastScripts
+
+
 ![](MPSafariAF-demo-kb.gif)
 
 
+
 Mouse Click Method
+
+
 ![](MPSafariAF-demo.gif)
 
 This app provides the ability to grab credentials from your macpass (keepass database) based on URL of the front most tab in Safari. (beware it operates like Autotype so make sure you have the proper text field selected)
