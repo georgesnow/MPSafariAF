@@ -23,10 +23,13 @@ You can attempt to fill both fields or just Username which will paste the userna
 The app then quits and is re-launchable...
 
 i recommend using https://red-sweater.com/fastscripts/
-aamazing app point the app to the folder your have the script and assign global keyboard shortcut and off you go (review the importants notes below)
+
+an amazing app point the app to the folder where you have the script and assign a global keyboard shortcut and off you go (review the importants notes below)
 
 
 that's it...
+
+feedback is welcome can't gurantee i can fix the problem, but it has been working great for me.
 
 Important notes:
 
