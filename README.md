@@ -20,7 +20,7 @@ MacPass needs to be open and unlocked Whatever tab is most front in Safari is th
 
 if you use the release version beware:
 You have to setup the Privacy settings in System Preferences. As you have to allow the app to control other apps etc...and to clear them you need some understanding tccutil.
-it requires modyfing the info.plist to get it work, which there is little to no documentation on. so it took alot testing to figureout the right combo if you trying to make an app that controls other apps.
+it required me to modify the info.plist to get it work, which there is little to no documentation on. so it took alot testing to figureout the right combo. thats a note if you trying to make an app that controls other apps. you can look at the info.plist of the release version.
 
 I recommend after launching you set it so the icon stays in your dock and place next to Safari, but to each their own.
 
