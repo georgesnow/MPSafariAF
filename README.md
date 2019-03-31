@@ -1,5 +1,5 @@
 # MPSafariAF
-Applescript that autofills from MacPass into Safari based on the front most tab
+Applescript that autofills from MacPass into Safari based on the front most tabs URL
 
 
 Global Keyboard shortcut via FastScripts
@@ -15,6 +15,8 @@ Mouse Click Method
 ![](MPSafariAF-demo.gif)
 
 This app provides the ability to grab credentials from your macpass (keepass database) based on URL of the front most tab in Safari. (beware it operates like Autotype so make sure you have the proper text field selected)
+It differs from AutoType in that it uses the URL (including subdomain ie. domains.google.com not just google.com)
+instead of the window title. 
 
 
 You can attempt to fill both fields or just Username which will paste the username and allow you to paste the password (hardcoded at 10secs to clipboard then clears) for pages that are split.
@@ -29,7 +31,7 @@ an amazing app point the app to the folder where you have the script and assign 
 
 that's it...
 
-feedback is welcome can't gurantee i can fix the problem, but it has been working great for me.
+feedback is welcome can't gurantee i can fix the problem, but it has been working great for me. Coming from another password manager that had an extension to Autofill in Safari was a hard thing to lose. 
 
 Important notes:
 
@@ -38,6 +40,7 @@ MacPass needs to be open and unlocked Whatever tab is most front in Safari is th
 the script clears the search box and password and username fields before pasting them. 
 also if you don't unlock your macpass the URL is kept in the clipboard until you choose Both, Username, or Cancel
 so you can unlock your database and paste into the macpass=>select entry=>then click desire mode of Both or Username
+
 
 
 if you use the release version beware:
